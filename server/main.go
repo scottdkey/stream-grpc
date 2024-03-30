@@ -1,11 +1,12 @@
 package main
 
 import (
- "context"
- pb "github.com/scottdkey/stream-grpc/helloworld"
- "google.golang.org/grpc"
- "log"
- "net"
+	"context"
+	"log"
+	"net"
+
+	pb "github.com/scottdkey/stream-grpc/helloworld"
+	"google.golang.org/grpc"
 )
 
 type server struct {
